@@ -17,6 +17,20 @@
 - Team not ready for TypeScript
 - App is being sunset soon
 
+
+
+## Reflection: Do you really need to migrate?
+
+Before migrating, ask yourself: do you actually need it?
+
+Most applications that are not actively updated, and where you're not constantly integrating new modules, don't need migration. If the app works and nobody touches it — leave it alone. Vue 2 will keep running.
+
+But if you're actively working on the application, shipping new features regularly, and the codebase is growing — migration becomes necessary. The Composition API and strict TypeScript pay for themselves when you have a large, evolving codebase with multiple developers.
+
+The migration cost is real: 2-8 weeks of focused work, depending on codebase size. Make sure the ROI is there before you start.
+
+— Nick Sannikov
+
 ## Migration plan (step by step)
 
 ### Phase 1: Preparation (1-2 weeks)
